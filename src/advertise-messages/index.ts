@@ -4,7 +4,7 @@ import { TMakeCounter, makeCounter } from '../utils/helpers';
 
 export type TAdvertiseMessage = {
   messagesIndexController: TMakeCounter,
-  messages: {
+  messages: {         
     message: MessageLike,
     file?: LocalPath
   }[]
